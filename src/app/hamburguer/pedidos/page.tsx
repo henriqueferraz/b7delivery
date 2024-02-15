@@ -1,10 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: 'Inicial'
+    title: 'Pedidos'
 };
-
-const Inicial = () => {
+const Pedidos = () => {
     return (
         <div>
             <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -17,4 +16,4 @@ const Inicial = () => {
         </div>
     )
 }
-export default Inicial
+export default Pedidos
